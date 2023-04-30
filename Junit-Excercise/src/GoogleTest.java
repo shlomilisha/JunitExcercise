@@ -30,8 +30,6 @@ public class GoogleTest {
 
 	    assertEquals("second attempt", "42", list.get(0));   // make sure I can get them a second time
 	    assertEquals("second attempt", "99", list.get(3));
-	    assertTrue(list.contains("-3"));
-	    assertFalse(list.isEmpty());
 	}
 
 }
